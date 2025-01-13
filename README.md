@@ -68,3 +68,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Backend API Endpoint
+
+The backend API endpoints for the app are located in the FastAPI server. You can find the code for the API endpoints in the `backend` directory, specifically in the `main.py` file or wherever the FastAPI app is defined. The server listens for requests and provides the necessary data for the frontend.
+
+To get started with the backend:
+
+1. Navigate to the `backend` directory:
