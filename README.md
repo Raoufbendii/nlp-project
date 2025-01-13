@@ -1,78 +1,45 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) to set up the frontend for the application.
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, you can run the following scripts:
 
 ### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Runs the app in development mode.
+- Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- The page will automatically reload when changes are made.
+- Any lint errors will appear in the console.
 
 ### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Launches the test runner in interactive watch mode.
+- You can learn more about running tests in [Create React App Docs](https://facebook.github.io/create-react-app/docs/running-tests).
 
 ### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Builds the app for production in the `build` folder.
+- Optimizes the app for the best performance, ensuring it is minified.
+- Prepares the app for deployment. You can learn more about deployment in the [Create React App Docs](https://facebook.github.io/create-react-app/docs/deployment).
 
 ### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Note**: This is a one-way operation. Once you `eject`, you can't go back!
+- Ejecting removes the single build dependency and gives full control over the configurations (webpack, Babel, ESLint, etc.). This can be useful if you want to customize your build tool, but it's generally not necessary for smaller projects.
+- You don't have to use this unless you need deep customization.
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+You can explore the following resources to deepen your understanding of the tools used:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started)
+- [React documentation](https://reactjs.org/)
 
 ## Backend API Endpoint
 
-The backend API endpoints for the app are located in the FastAPI server. You can find the code for the API endpoints in the `backend` directory, specifically in the `main.py` file or wherever the FastAPI app is defined. The server listens for requests and provides the necessary data for the frontend.
+The backend for this project is built using FastAPI. The API endpoints are defined in the `Endpoint` branch, specifically in the `endpoint.py` file, or wherever the FastAPI app is configured. This API listens for requests from the frontend and provides necessary data.
 
 To get started with the backend:
 
-1. Navigate to the `backend` directory:
+1. Navigate to the [Endpoint Branch](https://github.com/Raoufbendii/nlp-project/tree/Endpoint).
+2. Install the required packages for the backend by running:
+   ```bash
+   pip install -r requirements.txt
