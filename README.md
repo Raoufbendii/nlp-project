@@ -1,3 +1,15 @@
+# NoonToon: Culturally Sensitive Recommendation System for Arabic Children's Content
+
+The increasing exposure of children in Arabic-speaking societies to global media content has raised significant concerns among parents and educators about the potential misalignment of such content with Arabic and Islamic cultural values. Western media often introduces themes that may conflict with traditional values, including sexualized content and gender ideologies. To address this challenge, the NoonToon project aims to develop a culturally sensitive recommendation system for Arabic children's TV shows, movies, and anime. 
+
+Leveraging Natural Language Processing (NLP), deep learning models, and a manually curated Islamic values lexicon, the system analyzes textual content, such as scripts and subtitles, to ensure recommendations align with Islamic ethics and Arabic traditions. The solution provides personalized and age-appropriate content suggestions that nurture ethical values, emotional intelligence, and social development while avoiding inappropriate themes. This project contributes to creating a safe digital space for Arabic-speaking children by offering culturally relevant and ethically sound entertainment options.
+
+## Demo
+
+Watch the demo of the NoonToon project: [YouTube Demo Link](https://www.youtube.com/watch?v=5k6CHh9H58I)
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) to set up the frontend for the application.
