@@ -4,6 +4,8 @@ The increasing exposure of children in Arabic-speaking societies to global media
 
 Leveraging Natural Language Processing (NLP), deep learning models, and a manually curated Islamic values lexicon, the system analyzes textual content, such as scripts and subtitles, to ensure recommendations align with Islamic ethics and Arabic traditions. The solution provides personalized and age-appropriate content suggestions that nurture ethical values, emotional intelligence, and social development while avoiding inappropriate themes. This project contributes to creating a safe digital space for Arabic-speaking children by offering culturally relevant and ethically sound entertainment options.
 
+![image](https://github.com/user-attachments/assets/de34c57c-6b8b-4062-b4a6-bc85ba992616)
+
 ## Demo
 
 Watch the demo of the NoonToon project: [YouTube Demo Link](https://www.youtube.com/watch?v=5k6CHh9H58I)
